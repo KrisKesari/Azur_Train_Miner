@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Floor
+  m_Name: Wood
   m_Shader: {fileID: -6465566751694194690, guid: edd7abf643fa4bc4e8561d4c280c97cf, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -29,7 +29,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: d1460a4899f74c243b02bc7ba206af71, type: 3}
+        m_Texture: {fileID: 2800000, guid: 927bdbe9a5ddf574099cc3a1ee0241e1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -82,7 +82,7 @@ Material:
     - _EmissionChannel: 4
     - _FresnelMax: 1.5
     - _FresnelMin: 0
-    - _IndirectIntensity: 1
+    - _IndirectIntensity: 0.74
     - _IndirectIntensityOutline: 0
     - _MatCapMaskChannel: 0
     - _MatCapType: 0
@@ -103,8 +103,8 @@ Material:
     - _RampOffset: 0
     - _RampScale: 1
     - _RampSmooth: 0.7
-    - _RampSmoothing: 0.1
-    - _RampThreshold: 0.75
+    - _RampSmoothing: 0.63
+    - _RampThreshold: 0.83
     - _RampType: 0
     - _ReceiveShadowsOff: 1
     - _ReflectionMapType: 0
@@ -136,7 +136,7 @@ Material:
     - _UseSpecular: 0
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.50980395, g: 0.46929267, b: 0.4392157, a: 1}
+    - _BaseColor: {r: 0.6226415, g: 0.56689215, b: 0.5204343, a: 1}
     - _Color: {r: 0.8308824, g: 0.6016746, b: 0, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 0, a: 1}
     - _HColor: {r: 1, g: 1, b: 1, a: 1}
@@ -144,6 +144,6 @@ Material:
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectionColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimColor: {r: 0.8, g: 0.8, b: 0.8, a: 0.5}
-    - _SColor: {r: 0.7283019, g: 0.616784, b: 0.43835527, a: 1}
+    - _SColor: {r: 0.4264151, g: 0.2771698, b: 0.12792449, a: 1}
     - _SpecularColor: {r: 0.75, g: 0.75, b: 0.75, a: 1}
   m_BuildTextureStacks: []

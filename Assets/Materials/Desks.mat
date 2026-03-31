@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Grass
+  m_Name: Desks
   m_Shader: {fileID: 4800000, guid: 7cf6e0bd6774e2a438d4701ceb5e6bae, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -20,17 +20,17 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: _HColor _Shadow_HSV_S _Shadow_HSV_V
+  m_LockedProperties: _SColor _Shadow_HSV_S
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _BlendTex1:
-        m_Texture: {fileID: 2800000, guid: 9393ce0875828874cbed23bc48ebb272, type: 3}
-        m_Scale: {x: 6, y: 6}
+        m_Texture: {fileID: 2800000, guid: 5c5e55a9fbc4aa64a92b1555198f8bb8, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BlendTex2:
-        m_Texture: {fileID: 2800000, guid: 9393ce0875828874cbed23bc48ebb272, type: 3}
-        m_Scale: {x: 6, y: 6}
+        m_Texture: {fileID: 2800000, guid: 5a69c23bc5d81464b887b710b6f4eb24, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: de3d69e834491a34e9aceb298acdefa2, type: 3}
@@ -53,8 +53,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9393ce0875828874cbed23bc48ebb272, type: 3}
-        m_Scale: {x: 6, y: 6}
+        m_Texture: {fileID: 2800000, guid: 5a69c23bc5d81464b887b710b6f4eb24, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -94,17 +94,17 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.0312
-    - _RampSmooth: 0.42
+    - _RampSmooth: 0.193
     - _RampSmoothDir: 0.5
-    - _RampSmoothPoint: 0.31
-    - _RampSmoothSpot: 0.001
-    - _RampThreshold: 0.99
-    - _RampThresholdDir: 0.35
-    - _RampThresholdPoint: 0.59
-    - _RampThresholdSpot: 0.43
-    - _Shadow_HSV_H: 0
-    - _Shadow_HSV_S: 0.05
-    - _Shadow_HSV_V: -0.17
+    - _RampSmoothPoint: 0.5
+    - _RampSmoothSpot: 0.15
+    - _RampThreshold: 0.703
+    - _RampThresholdDir: 0.5
+    - _RampThresholdPoint: 0.5
+    - _RampThresholdSpot: 0.5
+    - _Shadow_HSV_H: -10
+    - _Shadow_HSV_S: 0
+    - _Shadow_HSV_V: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -114,10 +114,10 @@ Material:
     - __EndGroup: 0
     - __dummy__: 0
     m_Colors:
-    - _Color: {r: 0.9489755, g: 0.96981126, b: 0.8838091, a: 1}
+    - _Color: {r: 1, g: 0.91784966, b: 0.60188675, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HColor: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
+    - _SColor: {r: 0.5773585, g: 0.4797324, b: 0.4041509, a: 1}
     - _VColorBlendOffset: {r: 1, g: 0.5, b: 0, a: 0}
-    - _VColorBlendSmooth: {r: 0.3, g: 0.65, b: 0.25, a: 0.25}
+    - _VColorBlendSmooth: {r: 0.2, g: 0.65, b: 0.25, a: 0.25}
   m_BuildTextureStacks: []
